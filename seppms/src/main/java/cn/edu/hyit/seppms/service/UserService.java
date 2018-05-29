@@ -9,4 +9,5 @@ public interface UserService extends BaseService<User> {
 
     void save(User u);
     public User selectByNumber(String number);
+    public User getUserByNumber(String number);
 }
